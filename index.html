@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BDO</title>
+</head>
+<body>
+<nav class="nav-bar">
+    <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\logo.png" alt="logo"/> 
+    <div class="nav-items">
+        <a href="Homepage.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <button>Login</button>
+</nav>
+
+<header class="hero-section">
+    <div class="hero-text-container">
+        <h1>Welcome to the<br />new BDO</h1>
+        <p>Explore the new site and experience BDO's products and<br />services with a new and improved interface. </p>
+        <button onclick="scrollToWhyUs()">Explore More</button> <!-- Added onclick event -->
+    </div>
+    <div class="hero-img-container">
+        <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Masthead - Q4 2023 - Welcome to BDO - Image 4.png" alt=""/> 
+    </div>
+</header>
+<div class="container">
+    <section class="why-us" id="why-us"> 
+        <h1>Why choose BDO?</h1>
+        <p>We find ways for you at BDO, we are inspired to provide each and every customer
+            with the best banking experience.<br />We are focused on delivering excellence and providing access
+            and convenience across all our products and services.</p>
+    </section>
+    <section class="features-section">
+        <h1>Explore More</h1>
+        <div class="explore-more"> 
+            <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Saving Accounts.png" alt="" />
+            <h1>Savings Accounts</h1>
+            <p>Choose from a wide range of<br />
+                products to help manage your<br />
+                savings, depending on your<br />
+                goals and needs.</p>
+        </div>
+        <div class="explore-more">
+            <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Checking Accounts.png" alt="" />
+            <h1>Checking Accounts</h1>
+            <p>Pay using checks and monitor<br />
+                your transactions through a passbook<br />
+                or an electronic statement<br />
+                of account.</p>
+        </div>
+        <div class="explore-more"> 
+            <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Time Deposit Accounts.png" alt="" />
+            <h1>Time Deposit Accounts</h1>
+            <p>Grow your money with higher<br />
+                interest rates for a fixed term.</p>
+        </div>
+    </section>
+    <section class="card-section"> 
+        <h1>Discover the types of BDO Card</h1>
+        <div class="card-container"> 
+            <div class="card">
+                <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Debit Card.png" alt="Cards" />
+                <div class="content">
+                    <h4>Debit Card</h4>
+                    <p>Shop & enjoy savings<br />
+                        with a card that's directly<br />
+                        linked to your deposit account.</p>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Credit Card.png" alt="" />
+                <div class="content">
+                    <h4>Credit Card</h4>
+                    <p>Expect an exciting line-up<br />
+                        of benefits and privileges<br />
+                        that suit your lifestyle.</p>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Bdo Pay Card.png" alt="" />
+                <div class="content">
+                    <h4>BDO Pay Card</h4>
+                    <p>Enjoy easy payments in thousands of<br />
+                        establishments with a card you can manage<br />
+                        with the BDO Pay app.</p>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Reward Card.png" alt="" />
+                <div class="content">
+                    <h4>Reward Card</h4>
+                    <p>Get points, discounts, and<br />
+                        exclusive deals that<br />
+                        boost your savings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="social-container">
+            <img src="images/icon-facebook.svg" alt="" />
+            <img src="images/icon-instagram.svg" alt="" />
+            <img src="images/icon-twitter.svg" alt="" />
+            <img src="images/icon-pinterest.svg" alt="" />
+        </div>
+        <div class="menu">
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">Service</a>
+        </div>
+        <div class="menu">
+            <a href="#">Carriers</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <button>Login</button>
+
+    </div>
+</footer>
+<script>
+    function scrollToWhyUs() {
+        document.getElementById('why-us').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>

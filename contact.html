@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BDO</title>
+</head>
+<body>
+<nav class="nav-bar">
+    <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\logo.png" alt="logo"/> 
+    <div class="nav-items">
+        <a href="Homepage.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <button>Login</button>
+</nav>
+
+<header class="hero-section">
+    <div class="hero-text-container">
+        <h1>Welcome to the<br />new BDO</h1>
+        <p>Explore the new site and experience BDO's products and<br />services with a new and improved interface. </p>
+        <button onclick="scrollToContactUs()">Explore More</button> <!-- Added onclick event -->
+    </div>
+    <div class="hero-img-container">
+        <img src="C:\Users\Kayle\OneDrive\Desktop\WEBSITE\Masthead - Q4 2023 - Welcome to BDO - Image 4.png" alt=""/> 
+    </div>
+</header>
+<div class="container">
+    <section class="Contact-us" id="Contact-us"> 
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <h2>BDO Corporate Center</h2>
+            <p><strong>Address:</strong> 7899 Makati Avenue Makati City 0726, Philippines</p>
+            <p><strong>Trunkline:</strong> (+632) 8840-7000</p>
+        </div>
+        <div class="contact-info">
+            <h2>BDO Contact Center</h2>
+            <p><strong>Contact Number:</strong> (+632) 8631-8000</p>
+            <p><strong>Email:</strong> callcenter@bdo.com.ph</p>
+            <p>This channel is dedicated to handling phishing reports, online banking enrollment and/or updating of registered online banking contact information of overseas clients.</p>
+        </div>
+        <div class="contact-info">
+            <h2>BDO's Consumer Assistance Management System</h2>
+            <p><strong>See available channels:</strong> <a href="#">Link</a></p>
+        </div>
+        <div class="contact-info">
+            <h2>International Toll-Free</h2>
+            <p><strong>IAC:</strong> +800-8-631-8000</p>
+            <p>(See list of IAC <a href="#">here</a>)</p>
+            </div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="social-container">
+            <img src="images/icon-facebook.svg" alt="" />
+            <img src="images/icon-instagram.svg" alt="" />
+            <img src="images/icon-twitter.svg" alt="" />
+            <img src="images/icon-pinterest.svg" alt="" />
+        </div>
+        <div class="menu">
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">Service</a>
+        </div>
+        <div class="menu">
+            <a href="#">Carriers</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <button>Login</button>
+
+    </div>
+</footer>
+<script>
+    function scrollToContactUs() {
+        document.getElementById('why-us').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>
